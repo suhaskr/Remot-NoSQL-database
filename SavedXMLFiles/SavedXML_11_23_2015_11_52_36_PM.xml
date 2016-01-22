@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--This is a No-SQL Database.-->
+<NoSqlDb>
+  <KeyType>System.Int32</KeyType>
+  <PayloadType>System.String</PayloadType>
+  <Key-Value-Pair>
+    <Key>15</Key>
+    <Element>
+      <Name>Edited name</Name>
+      <Descr>Edited description for DB ELement.</Descr>
+      <Children>
+        <Key>9</Key>
+        <Key>3</Key>
+      </Children>
+      <timestamp>2015-11-23T23:52:36.0122147-05:00</timestamp>
+      <payload>Payload for element-1.</payload>
+    </Element>
+  </Key-Value-Pair>
+</NoSqlDb>

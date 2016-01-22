@@ -1,0 +1,6 @@
+S:\Study\Fall-15\SMA\Project-4\multiple_helper_projects\Final_P4\Approach_Two\TestExecutive\bin\Debug\TestExecutive.exe.config
+S:\Study\Fall-15\SMA\Project-4\multiple_helper_projects\Final_P4\Approach_Two\TestExecutive\bin\Debug\TestExecutive.exe
+S:\Study\Fall-15\SMA\Project-4\multiple_helper_projects\Final_P4\Approach_Two\TestExecutive\bin\Debug\TestExecutive.pdb
+S:\Study\Fall-15\SMA\Project-4\multiple_helper_projects\Final_P4\Approach_Two\TestExecutive\obj\Debug\TestExecutive.csprojResolveAssemblyReference.cache
+S:\Study\Fall-15\SMA\Project-4\multiple_helper_projects\Final_P4\Approach_Two\TestExecutive\obj\Debug\TestExecutive.exe
+S:\Study\Fall-15\SMA\Project-4\multiple_helper_projects\Final_P4\Approach_Two\TestExecutive\obj\Debug\TestExecutive.pdb

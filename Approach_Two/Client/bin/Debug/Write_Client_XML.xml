@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--XML file for Write Client-->
+<Client>
+ <WriteClient>
+  <Count>1</Count>
+  <Request_Message>
+    <Request_Type>Insert</Request_Type>
+    <Key>15</Key>
+    <Name>Elemen-1</Name>
+    <Description>Description for element 1.</Description>
+    <Children>
+      <Key>9</Key>
+      <Key>3</Key>
+    </Children>
+    <Payload>Payload for element-1.</Payload>
+  </Request_Message>
+  <Request_Message>
+    <Request_Type>Edit Name</Request_Type>
+    <Key>15</Key>
+    <Name>Edited name</Name>
+  </Request_Message>
+   <Request_Message>
+    <Request_Type>Insert</Request_Type>
+    <Key>18</Key>
+    <Name>Elemen-2</Name>
+    <Description>Description for element 2.</Description>
+    <Children>
+      <Key>25</Key>
+      <Key>27</Key>
+    </Children>
+    <Payload>Payload for element-2.</Payload>
+  </Request_Message>
+  <Request_Message>
+    <Request_Type>Edit Description</Request_Type>
+    <Key>15</Key>
+    <Description>New description</Description>
+  </Request_Message>
+  <Request_Message>
+    <Request_Type>Add Children</Request_Type>
+    <Key>18</Key>
+    <Children>
+      <Key>99</Key>
+      <Key>105</Key>
+    </Children>
+  </Request_Message>
+  <Request_Message>
+    <Request_Type>Insert</Request_Type>
+    <Key>27</Key>
+    <Name>Elemen-3</Name>
+    <Description>Description for element 3.</Description>
+    <Children>
+      <Key>45</Key>
+      <Key>55</Key>
+    </Children>
+    <Payload>Payload for element-3.</Payload>
+  </Request_Message>
+  <Request_Message>
+    <Request_Type>Add Children</Request_Type>
+    <Key>15</Key>
+    <Children>
+      <Key>18</Key>
+      <Key>27</Key>
+    </Children>
+  </Request_Message>
+  <Request_Message>
+    <Request_Type>Delete</Request_Type>
+    <Key>15</Key>
+  </Request_Message>
+  <Request_Message>
+    <Request_Type>Delete</Request_Type>
+    <Key>27</Key>
+  </Request_Message>
+  <Request_Message>
+    <Request_Type>Add Children</Request_Type>
+    <Key>27</Key>
+    <Children>
+      <Key>99</Key>
+    </Children>
+  </Request_Message>
+ </WriteClient>
+</Client>

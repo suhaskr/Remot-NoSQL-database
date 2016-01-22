@@ -1,0 +1,7 @@
+S:\Study\Fall-15\SMA\Project-4\multiple_helper_projects\Final_P4\Approach_Two\DemoClient\bin\Debug\DemoClient.exe
+S:\Study\Fall-15\SMA\Project-4\multiple_helper_projects\Final_P4\Approach_Two\DemoClient\bin\Debug\ICommService.dll
+S:\Study\Fall-15\SMA\Project-4\multiple_helper_projects\Final_P4\Approach_Two\DemoClient\bin\Debug\Receiver.exe
+S:\Study\Fall-15\SMA\Project-4\multiple_helper_projects\Final_P4\Approach_Two\DemoClient\bin\Debug\Sender.exe
+S:\Study\Fall-15\SMA\Project-4\multiple_helper_projects\Final_P4\Approach_Two\DemoClient\bin\Debug\Utilities.exe
+S:\Study\Fall-15\SMA\Project-4\multiple_helper_projects\Final_P4\Approach_Two\DemoClient\bin\Debug\CommService.dll
+S:\Study\Fall-15\SMA\Project-4\multiple_helper_projects\Final_P4\Approach_Two\DemoClient\bin\Debug\BlockingQueue.dll

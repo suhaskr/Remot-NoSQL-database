@@ -1,0 +1,8 @@
+S:\Study\Fall-15\SMA\Project-4\multiple_helper_projects\Approach_Two\DBProcessor\bin\Debug\DBProcessor.exe.config
+S:\Study\Fall-15\SMA\Project-4\multiple_helper_projects\Approach_Two\DBProcessor\bin\Debug\DBProcessor.exe
+S:\Study\Fall-15\SMA\Project-4\multiple_helper_projects\Approach_Two\DBProcessor\bin\Debug\DBProcessor.pdb
+S:\Study\Fall-15\SMA\Project-4\multiple_helper_projects\Approach_Two\DBProcessor\bin\Debug\DatabaseLib.dll
+S:\Study\Fall-15\SMA\Project-4\multiple_helper_projects\Approach_Two\DBProcessor\bin\Debug\DatabaseLib.pdb
+S:\Study\Fall-15\SMA\Project-4\multiple_helper_projects\Approach_Two\DBProcessor\obj\Debug\DBProcessor.csprojResolveAssemblyReference.cache
+S:\Study\Fall-15\SMA\Project-4\multiple_helper_projects\Approach_Two\DBProcessor\obj\Debug\DBProcessor.exe
+S:\Study\Fall-15\SMA\Project-4\multiple_helper_projects\Approach_Two\DBProcessor\obj\Debug\DBProcessor.pdb

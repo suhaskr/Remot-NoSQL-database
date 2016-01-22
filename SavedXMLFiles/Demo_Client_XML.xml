@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--XML file for Write Client-->
+<Client>
+ <DemoClient>
+  <Count>1</Count>
+  <Request_Message>
+    <Request_Type>Insert</Request_Type>
+    <Key>15</Key>
+    <Name>Elemen-1</Name>
+    <Description>Description for element 1.</Description>
+    <Children>
+      <Key>9</Key>
+      <Key>3</Key>
+    </Children>
+    <Payload>Payload for element-1.</Payload>
+  </Request_Message>
+   <Request_Message>
+    <Request_Type>Insert</Request_Type>
+    <Key>18</Key>
+    <Name>Elemen-2</Name>
+    <Description>Description for element 2.</Description>
+    <Payload>DB Element without children.</Payload>
+  </Request_Message>
+  <Request_Message>
+    <Request_Type>Show DB</Request_Type>
+  </Request_Message>
+  <Request_Message>
+    <Request_Type>Edit Name</Request_Type>
+    <Key>15</Key>
+    <Name>Edited name</Name>
+  </Request_Message>
+  <Request_Message>
+    <Request_Type>Edit Description</Request_Type>
+    <Key>15</Key>
+    <Description>Edited description for DB ELement.</Description>
+  </Request_Message>
+  <Request_Message>
+    <Request_Type>Delete</Request_Type>
+    <Key>18</Key>
+  </Request_Message>
+  <Request_Message>
+    <Request_Type>Show DB</Request_Type>
+  </Request_Message>
+  <Request_Message>
+    <Request_Type>Persist Database</Request_Type>
+  </Request_Message>
+  <Request_Message>
+    <Request_Type>Load Database</Request_Type>
+    <File_Name>./../../../../SavedXMLFiles/Old_XML_file.xml</File_Name>
+  </Request_Message>
+  <Request_Message>
+    <Request_Type>Show DB</Request_Type>
+  </Request_Message>
+  <Request_Message>
+    <Request_Type>Get Value</Request_Type>
+    <Key>15</Key>
+  </Request_Message>
+  <Request_Message>
+    <Request_Type>Get Children</Request_Type>
+    <Key>15</Key>
+  </Request_Message>
+  <Request_Message>
+    <Request_Type>Get Keys metadata</Request_Type>
+    <Pattern>Loaded</Pattern>
+  </Request_Message>
+</DemoClient>
+</Client>

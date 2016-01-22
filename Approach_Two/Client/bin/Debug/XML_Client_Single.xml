@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--XML file for Write Client-->
+<Client>
+ <WriteClient>
+  <Count>1</Count>
+  <Request_Message>
+    <Request_Type>Insert</Request_Type>
+    <Key>15</Key>
+    <Name>Elemen-1</Name>
+    <Description>Description for element 1.</Description>
+    <Children>
+      <Key>9</Key>
+      <Key>3</Key>
+    </Children>
+    <Payload>Payload for element-1.</Payload>
+  </Request_Message>
+ </WriteClient>
+</Client>

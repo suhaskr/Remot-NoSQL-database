@@ -1,0 +1,4 @@
+S:\Study\Fall-15\SMA\Project-4\multiple_helper_projects\Approach_Two\HighResolutionTimer\bin\Debug\HighResolutionTimer.dll
+S:\Study\Fall-15\SMA\Project-4\multiple_helper_projects\Approach_Two\HighResolutionTimer\bin\Debug\HighResolutionTimer.pdb
+S:\Study\Fall-15\SMA\Project-4\multiple_helper_projects\Approach_Two\HighResolutionTimer\obj\Debug\HighResolutionTimer.dll
+S:\Study\Fall-15\SMA\Project-4\multiple_helper_projects\Approach_Two\HighResolutionTimer\obj\Debug\HighResolutionTimer.pdb

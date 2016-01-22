@@ -1,0 +1,5 @@
+S:\Study\Fall-15\SMA\Project-4\multiple_helper_projects\Approach_Two\DatabaseLib\obj\Debug\DatabaseLib.csprojResolveAssemblyReference.cache
+S:\Study\Fall-15\SMA\Project-4\multiple_helper_projects\Approach_Two\DatabaseLib\bin\Debug\DatabaseLib.dll
+S:\Study\Fall-15\SMA\Project-4\multiple_helper_projects\Approach_Two\DatabaseLib\bin\Debug\DatabaseLib.pdb
+S:\Study\Fall-15\SMA\Project-4\multiple_helper_projects\Approach_Two\DatabaseLib\obj\Debug\DatabaseLib.dll
+S:\Study\Fall-15\SMA\Project-4\multiple_helper_projects\Approach_Two\DatabaseLib\obj\Debug\DatabaseLib.pdb

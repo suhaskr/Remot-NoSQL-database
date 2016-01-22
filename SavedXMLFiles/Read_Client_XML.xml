@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--XML file for Write Client-->
+<Client>
+ <ReadClient>
+  <Count>10</Count>
+  <Request_Message>
+    <Request_Type>Get Value</Request_Type>
+    <Key>15</Key>
+  </Request_Message>
+  <Request_Message>
+    <Request_Type>Get Children</Request_Type>
+    <Key>15</Key>
+  </Request_Message>
+  <Request_Message>
+    <Request_Type>Get Keys metadata</Request_Type>
+    <Pattern>element</Pattern>
+  </Request_Message>
+  <Request_Message>
+    <Request_Type>Get Value</Request_Type>
+    <Key>18</Key>
+  </Request_Message>
+  <Request_Message>
+    <Request_Type>Get Children</Request_Type>
+    <Key>18</Key>
+  </Request_Message>
+  <Request_Message>
+    <Request_Type>Get Keys metadata</Request_Type>
+    <Pattern>Unknown</Pattern>
+  </Request_Message>
+ </ReadClient>
+</Client>

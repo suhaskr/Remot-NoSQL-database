@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--XML file for Write Client-->
+<Client>
+ <WriteClient>
+  <Count>2</Count>
+  <Request_Message>
+    <Request_Type>Insert</Request_Type>
+    <Key>15</Key>
+    <Name>Elemen-1</Name>
+    <Description>Description for element 1.</Description>
+    <Children>
+      <Key>9</Key>
+      <Key>3</Key>
+    </Children>
+    <Payload>Payload for element-1.</Payload>
+  </Request_Message>
+   <Request_Message>
+    <Request_Type>Insert</Request_Type>
+    <Key>18</Key>
+    <Name>Elemen-2</Name>
+    <Description>Description for element 2.</Description>
+    <Children>
+      <Key>25</Key>
+      <Key>27</Key>
+    </Children>
+    <Payload>Payload for element-2.</Payload>
+  </Request_Message>
+  <Request_Message>
+    <Request_Type>Show DB</Request_Type>
+  </Request_Message>
+  <Request_Message>
+    <Request_Type>Edit Name</Request_Type>
+    <Key>15</Key>
+    <Name>Edited name</Name>
+  </Request_Message>
+  <Request_Message>
+    <Request_Type>Edit Description</Request_Type>
+    <Key>15</Key>
+    <Description>New description</Description>
+  </Request_Message>
+  <Request_Message>
+    <Request_Type>Show DB</Request_Type>
+  </Request_Message>
+ </WriteClient>
+</Client>

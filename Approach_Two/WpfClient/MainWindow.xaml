@@ -1,0 +1,119 @@
+﻿<!-- 
+/////////////////////////////////////////////////////////////////////////
+// MainWindow.xaml - CommService GUI Client                            //
+// ver 1.0                                                             //
+// Jim Fawcett, CSE681 - Software Modeling and Analysis, Project #4    //
+/////////////////////////////////////////////////////////////////////////
+-->
+<Window x:Class="WpfApplication1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="565">
+    <Grid>
+        <TabControl x:Name="tabControl">
+            <TabItem Header="Write Clients">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="5"></RowDefinition>
+                        <RowDefinition Height="12"></RowDefinition>
+                        <RowDefinition Height="17*"/>
+                        <RowDefinition Height="70*"></RowDefinition>
+                        <RowDefinition/>
+                        <RowDefinition Height="125*"/>
+                    </Grid.RowDefinitions>
+                    <ListBox Grid.Row="3" Name="write_avg_msgs" Margin="14,3.6,16.8,15.4" RenderTransformOrigin="0.5,0.5">
+                        <ListBox.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform AngleX="0.579"/>
+                                <RotateTransform/>
+                                <TranslateTransform X="1.072"/>
+                            </TransformGroup>
+                        </ListBox.RenderTransform>
+                    </ListBox>
+                    <ListBox Grid.Row="5" Name="write_all_msgs" Margin="15,11.2,14.8,15.4" RenderTransformOrigin="0.5,0.5">
+                        <ListBox.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform AngleX="0.579"/>
+                                <RotateTransform/>
+                                <TranslateTransform X="1.072"/>
+                            </TransformGroup>
+                        </ListBox.RenderTransform>
+                    </ListBox>
+                    <Label x:Name="label" Content="Average Latency: (Displayed after all responses are received for particular client)" HorizontalAlignment="Left" Height="25" Margin="10,0.2,0,0" Grid.Row="2" VerticalAlignment="Top" Width="517"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Read Clients">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="5"></RowDefinition>
+                        <RowDefinition Height="12"></RowDefinition>
+                        <RowDefinition Height="17*"/>
+                        <RowDefinition Height="70*"></RowDefinition>
+                        <RowDefinition/>
+                        <RowDefinition Height="125*"/>
+                    </Grid.RowDefinitions>
+                    <ListBox Grid.Row="3" Name="read_avg_msgs" Margin="14,3.6,16.8,15.4" RenderTransformOrigin="0.5,0.5">
+                        <ListBox.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform AngleX="0.579"/>
+                                <RotateTransform/>
+                                <TranslateTransform X="1.072"/>
+                            </TransformGroup>
+                        </ListBox.RenderTransform>
+                    </ListBox>
+                    <ListBox Grid.Row="5" Name="read_all_msgs" Margin="15,11.2,14.8,15.4" RenderTransformOrigin="0.5,0.5">
+                        <ListBox.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform AngleX="0.579"/>
+                                <RotateTransform/>
+                                <TranslateTransform X="1.072"/>
+                            </TransformGroup>
+                        </ListBox.RenderTransform>
+                    </ListBox>
+                    <Label x:Name="label2" Content="Average Latency: (Displayed after all responses are received for particular client)" HorizontalAlignment="Left" Height="25" Margin="10,0.2,0,0" Grid.Row="2" VerticalAlignment="Top" Width="499"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Server Performance">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="5"></RowDefinition>
+                        <RowDefinition Height="12"></RowDefinition>
+                        <RowDefinition Height="17*"/>
+                        <RowDefinition Height="70*"></RowDefinition>
+                        <RowDefinition/>
+                        <RowDefinition Height="125*"/>
+                    </Grid.RowDefinitions>
+                    <ListBox Grid.Row="3" Name="server_avg_msgs" Margin="14,3.6,16.8,15.4" RenderTransformOrigin="0.5,0.5">
+                        <ListBox.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform AngleX="0.579"/>
+                                <RotateTransform/>
+                                <TranslateTransform X="1.072"/>
+                            </TransformGroup>
+                        </ListBox.RenderTransform>
+                    </ListBox>
+                    <ListBox Grid.Row="5" Name="server_all_msgs" Margin="15,11.2,14.8,15.4" RenderTransformOrigin="0.5,0.5">
+                        <ListBox.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform AngleX="0.579"/>
+                                <RotateTransform/>
+                                <TranslateTransform X="1.072"/>
+                            </TransformGroup>
+                        </ListBox.RenderTransform>
+                    </ListBox>
+                    <Label x:Name="label3" Content="Average Processing time for operation: (Displayed every 10 operations of a particular type) " HorizontalAlignment="Left" Height="25" Margin="10,0.2,0,0" Grid.Row="2" VerticalAlignment="Top" Width="488"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

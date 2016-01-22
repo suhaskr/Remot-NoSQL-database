@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--This is a No-SQL Database.-->
+<NoSqlDb>
+  <KeyType>System.Int32</KeyType>
+  <PayloadType>System.String</PayloadType>
+  <Key-Value-Pair>
+    <Key>100</Key>
+    <Element>
+      <Name>DB Element XML</Name>
+      <Descr>Loaded from XMl</Descr>
+      <Children>
+        <Key>9</Key>
+        <Key>3</Key>
+      </Children>
+      <timestamp>2015-11-21T18:15:06.424064-05:00</timestamp>
+      <payload>Persisted DB element loaded into database.</payload>
+    </Element>
+  </Key-Value-Pair>
+  <Key-Value-Pair>
+    <Key>101</Key>
+    <Element>
+      <Name>DB Element-2 XML</Name>
+      <Descr>Loaded from XMl</Descr>
+      <Children>
+        <Key>15</Key>
+        <Key>16</Key>
+      </Children>
+      <timestamp>2015-11-21T18:15:06.424064-05:01</timestamp>
+      <payload>DB element loaded into database.</payload>
+    </Element>
+  </Key-Value-Pair>
+  <Key-Value-Pair>
+    <Key>102</Key>
+    <Element>
+      <Name>Element without children</Name>
+      <Descr>Loaded from XMl</Descr>
+      <timestamp>2015-11-21T18:15:06.424064-05:02</timestamp>
+      <payload>DB element loaded into database from saved XML file.</payload>
+    </Element>
+  </Key-Value-Pair>
+</NoSqlDb>
